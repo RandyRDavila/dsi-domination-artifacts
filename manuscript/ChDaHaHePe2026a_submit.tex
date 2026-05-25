@@ -46,6 +46,7 @@
 \DeclareRobustCommand{\TheoConjecture}{\texttt{Theo-Conjecture}}
 \DeclareRobustCommand{\AddDefinition}{\emph{Add Definition}}
 \DeclareRobustCommand{\CoPilot}{\emph{Co-Pilot}}
+\newcommand{\ArtifactRepo}{\url{https://github.com/RandyRDavila/dsi-domination-artifacts}}
 \title{Dual-Server Independent Domination in Graphs}
 \author{%
 \begin{tabular}{>{\centering\arraybackslash}p{0.94\textwidth}}
@@ -1223,6 +1224,12 @@ hereditary-subgraph, and other structural quantities. The binary integer
 programming model below is the mathematical form of the entry used for
 these computations.
 
+The manuscript source, scripts, CSV files, LP files, CBC logs, solution
+files, fixed seeds, and metadata for the computational experiments are
+available in the public artifact repository
+\ArtifactRepo. Paths cited below are relative to the root of that
+repository.
+
 Let \(G\) be a nontrivial graph. For each vertex \(v\in V(G)\), introduce
 binary variables \(r_v\) and \(b_v\), where \(r_v=1\) means that \(v\) is
 selected in the red class and \(b_v=1\) means that \(v\) is selected in the
@@ -1534,7 +1541,8 @@ seeds, \(1000\) validation observations, and \(3000\) test observations per
 trial.
 
 The raw data, fixed seeds, LP files, CBC logs, solution files, and metadata
-are included in \path{computational_data/ensemble/}. The script
+are available in the artifact repository at
+\path{computational_data/ensemble/}. The script
 \path{computational_data/ensemble_dsi_experiment.py} regenerates the
 baseline using only the Python standard library and the command-line CBC
 solver.
@@ -1606,8 +1614,8 @@ second-stage optimization distinguish between minimum DSI sets that are
 equally good from the graph-theoretic point of view.
 
 The raw data files, fixed seeds, trial-level CSV file, summary CSV file, LP
-files, CBC logs, solution files, and metadata are included in
-\path{computational_data/real_data/}. The script
+files, CBC logs, solution files, and metadata are available in the artifact
+repository at \path{computational_data/real_data/}. The script
 \path{computational_data/real_data_dsi_experiment.py} regenerates the
 baseline using only the Python standard library and the command-line CBC
 solver.
