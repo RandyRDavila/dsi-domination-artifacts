@@ -1,0 +1,31 @@
+Real-data DSI ensemble experiment metadata
+==========================================
+Datasets: iris, penguins, wine, wdbc
+Trials per dataset: 20
+Base learners per trial: 48
+Validation-accuracy slack for candidate filtering: 0.05
+Minimum candidate learners after filtering: 16
+Target validation-agreement graph density: 0.25
+Random same-size ensembles per trial: 200
+Lexicographic refinement: first minimize DSI size, then maximize
+the sum of selected individual validation accuracies among DSI sets
+of that minimum size.
+Validation-margin refinement: first minimize DSI size, then maximize
+the number of validation examples on which the correct class receives
+a strict plurality vote among selected learners, with individual
+validation accuracy used only as a small tie-breaker.
+CBC time limit per DSI solve: 10.0
+CBC command: /opt/homebrew/bin/cbc
+CBC version: Welcome to the CBC MILP Solver; Version: 2.10.12
+Python: 3.9.6
+
+Dataset sources:
+- iris: UCI Machine Learning Repository iris.data
+- penguins: Palmer Penguins penguins.csv
+- wine: UCI Machine Learning Repository wine.data
+- wdbc: UCI Machine Learning Repository wdbc.data
+
+Rerun from the teresa-dom directory with:
+python3 computational_data/real_data_dsi_experiment.py
+
+Rows written: 80

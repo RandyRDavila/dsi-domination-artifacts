@@ -1,0 +1,11 @@
+group,family_values,instances,orders,min_edges,max_edges,solved_optimal,median_wall_time_seconds,max_wall_time_seconds,median_cbc_wall_time_seconds,max_cbc_wall_time_seconds,median_cbc_nodes,max_cbc_nodes,median_cbc_iterations,max_cbc_iterations
+3-regular,3-regular,30,"20,30,40",30,60,30,0.350641,0.853484,0.340000,0.840000,20.0,81,6233.0,12307
+ER p=0.20,Erdos-Renyi,30,"20,30,40",33,182,30,0.514406,1.746479,0.505000,1.740000,14.5,190,5360.0,12748
+ER p=0.35,Erdos-Renyi,30,"20,30,40",60,302,30,0.494854,3.285340,0.485000,3.270000,27.0,510,5188.5,27757
+complete bipartite,complete bipartite,3,"12,18,24",32,128,3,0.191270,0.244413,0.180000,0.230000,4.0,6,1667.0,1889
+complete graphs,complete,3,"12,20,30",66,435,3,0.090626,0.361776,0.080000,0.350000,0.0,0,0.0,0
+cycles,cycle,3,"20,40,60",20,60,3,0.016339,0.021405,0.000000,0.000000,0.0,0,0.0,0
+grids,grid,3,"20,30,36",31,60,3,0.550825,1.052003,0.540000,1.040000,34.0,126,5783.0,10406
+named graphs,Petersen; cube,2,"8,10",12,15,2,0.130779,0.243330,0.115000,0.230000,1.0,2,854.5,1709
+paths,path,3,"20,40,60",19,59,3,0.034723,0.045318,0.010000,0.010000,0.0,0,0.0,0
+stars,star,3,"20,40,60",19,59,3,0.014673,0.048290,0.000000,0.040000,0.0,0,0.0,0

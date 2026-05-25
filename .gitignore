@@ -1,0 +1,24 @@
+.DS_Store
+
+# Python local artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local LaTeX build byproducts. The manuscript PDF is intentionally tracked.
+manuscript/*.aux
+manuscript/*.bbl
+manuscript/*.blg
+manuscript/*.fls
+manuscript/*.fdb_latexmk
+manuscript/*.log
+manuscript/*.out
+manuscript/*.synctex.gz
+manuscript/*.toc
+
+# Editor and local scratch files
+*~
+*.swp
+*.tmp
+

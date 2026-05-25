@@ -1,0 +1,46 @@
+Welcome to the CBC MILP Solver 
+Version: 2.10.12 
+Build Date: Aug 20 2024 
+
+command line - /opt/homebrew/bin/cbc computational_data/lp/K30.lp seconds 10.0 solve solu computational_data/solutions/K30.sol (default strategy 1)
+seconds was changed from 1e+100 to 10
+Continuous objective value is 2 - 0.00 seconds
+Cgl0003I 0 fixed, 0 tightened bounds, 870 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 778 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 770 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 766 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 754 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 730 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 720 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 706 strengthened rows, 0 substitutions
+Cgl0003I 0 fixed, 0 tightened bounds, 688 strengthened rows, 0 substitutions
+Cgl0004I processed model has 780 rows, 60 columns (60 integer (60 of which binary)) and 9548 elements
+Cutoff increment increased from 1e-05 to 0.9999
+Cbc0038I Initial state - 0 integers unsatisfied sum - 0
+Cbc0038I Solution found of 2
+Cbc0038I Before mini branch and bound, 60 integers at bound fixed and 0 continuous
+Cbc0038I Mini branch and bound did not improve solution (0.32 seconds)
+Cbc0038I After 0.32 seconds - Feasibility pump exiting with objective of 2 - took 0.00 seconds
+Cbc0012I Integer solution of 2 found by feasibility pump after 0 iterations and 0 nodes (0.32 seconds)
+Cbc0001I Search completed - best objective 2, took 0 iterations and 0 nodes (0.32 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from 2 to 2
+Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Gomory was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Knapsack was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Clique was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+MixedIntegerRounding2 was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+FlowCover was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+TwoMirCuts was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+ZeroHalf was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+
+Result - Optimal solution found
+
+Objective value:                2.00000000
+Enumerated nodes:               0
+Total iterations:               0
+Time (CPU seconds):             0.33
+Time (Wallclock seconds):       0.35
+
+Total time (CPU seconds):       0.33   (Wallclock seconds):       0.35
+

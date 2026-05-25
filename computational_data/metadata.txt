@@ -1,0 +1,13 @@
+DSI MIP benchmark metadata
+==========================
+Suite: benchmark
+Instances: 110
+Time limit per instance: 10.0 seconds
+Python: 3.9.6
+Platform: macOS-26.2-arm64-arm-64bit
+Processor: arm
+CBC command: /opt/homebrew/bin/cbc
+CBC version: Welcome to the CBC MILP Solver; Version: 2.10.12
+
+Rerun from the teresa-dom directory with:
+python3 computational_data/benchmark_dsi_mip.py --suite benchmark --time-limit 10.0

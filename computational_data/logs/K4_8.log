@@ -1,0 +1,87 @@
+Welcome to the CBC MILP Solver 
+Version: 2.10.12 
+Build Date: Aug 20 2024 
+
+command line - /opt/homebrew/bin/cbc computational_data/lp/K4_8.lp seconds 10.0 solve solu computational_data/solutions/K4_8.sol (default strategy 1)
+seconds was changed from 1e+100 to 10
+Continuous objective value is 2.85714 - 0.00 seconds
+Cgl0004I processed model has 102 rows, 24 columns (24 integer (24 of which binary)) and 352 elements
+Cutoff increment increased from 1e-05 to 0.9999
+Cbc0038I Initial state - 12 integers unsatisfied sum - 2.85714
+Cbc0038I Pass   1: suminf.    2.85714 (12) obj. 2.85714 iterations 11
+Cbc0038I Pass   2: suminf.    0.00000 (0) obj. 8 iterations 22
+Cbc0038I Solution found of 8
+Cbc0038I Rounding solution of 4 is better than previous of 8
+
+Cbc0038I Before mini branch and bound, 2 integers at bound fixed and 0 continuous
+Cbc0038I Full problem 102 rows 24 columns, reduced to 92 rows 22 columns
+Cbc0038I Mini branch and bound did not improve solution (0.00 seconds)
+Cbc0038I Round again with cutoff of 2.9858
+Cbc0038I Pass   3: suminf.    2.85714 (12) obj. 2.85714 iterations 0
+Cbc0038I Pass   4: suminf.    2.98580 (12) obj. 2.9858 iterations 5
+Cbc0038I Pass   5: suminf.    2.98580 (13) obj. 2.9858 iterations 5
+Cbc0038I Pass   6: suminf.    2.98580 (13) obj. 2.9858 iterations 3
+Cbc0038I Pass   7: suminf.    2.97161 (12) obj. 2.9858 iterations 6
+Cbc0038I Pass   8: suminf.    2.78343 (15) obj. 2.9858 iterations 5
+Cbc0038I Pass   9: suminf.    2.98580 (12) obj. 2.9858 iterations 17
+Cbc0038I Pass  10: suminf.    2.98580 (12) obj. 2.9858 iterations 10
+Cbc0038I Pass  11: suminf.    2.98580 (12) obj. 2.9858 iterations 12
+Cbc0038I Pass  12: suminf.    2.98580 (12) obj. 2.9858 iterations 4
+Cbc0038I Pass  13: suminf.    2.98580 (12) obj. 2.9858 iterations 8
+Cbc0038I Pass  14: suminf.    2.98580 (13) obj. 2.9858 iterations 6
+Cbc0038I Pass  15: suminf.    2.97161 (13) obj. 2.9858 iterations 2
+Cbc0038I Pass  16: suminf.    2.78343 (15) obj. 2.9858 iterations 4
+Cbc0038I Pass  17: suminf.    2.98580 (12) obj. 2.9858 iterations 14
+Cbc0038I Pass  18: suminf.    2.85714 (12) obj. 2.85714 iterations 12
+Cbc0038I Pass  19: suminf.    2.98580 (12) obj. 2.9858 iterations 10
+Cbc0038I Pass  20: suminf.    2.78194 (13) obj. 2.9858 iterations 12
+Cbc0038I Pass  21: suminf.    2.69979 (13) obj. 2.9858 iterations 8
+Cbc0038I Pass  22: suminf.    2.98580 (13) obj. 2.9858 iterations 3
+Cbc0038I Pass  23: suminf.    2.98580 (12) obj. 2.9858 iterations 13
+Cbc0038I Pass  24: suminf.    2.98580 (13) obj. 2.9858 iterations 10
+Cbc0038I Pass  25: suminf.    2.98580 (12) obj. 2.9858 iterations 11
+Cbc0038I Pass  26: suminf.    2.98580 (12) obj. 2.9858 iterations 2
+Cbc0038I Pass  27: suminf.    2.98580 (12) obj. 2.9858 iterations 3
+Cbc0038I Pass  28: suminf.    2.98580 (12) obj. 2.9858 iterations 7
+Cbc0038I Pass  29: suminf.    2.98580 (12) obj. 2.9858 iterations 4
+Cbc0038I Pass  30: suminf.    2.98580 (12) obj. 2.9858 iterations 7
+Cbc0038I Pass  31: suminf.    2.98580 (12) obj. 2.9858 iterations 6
+Cbc0038I Pass  32: suminf.    2.97161 (12) obj. 2.9858 iterations 5
+Cbc0038I No solution found this major pass
+Cbc0038I Before mini branch and bound, 0 integers at bound fixed and 0 continuous
+Cbc0038I Full problem 102 rows 24 columns, reduced to 102 rows 24 columns
+Cbc0038I Mini branch and bound did not improve solution (0.05 seconds)
+Cbc0038I After 0.05 seconds - Feasibility pump exiting with objective of 4 - took 0.05 seconds
+Cbc0012I Integer solution of 4 found by feasibility pump after 0 iterations and 0 nodes (0.05 seconds)
+Cbc0038I Full problem 102 rows 24 columns, reduced to 62 rows 16 columns
+Cbc0031I 3 added rows had average density of 21
+Cbc0013I At root node, 7 cuts changed objective from 2.8571429 to 3.2820513 in 1 passes
+Cbc0014I Cut generator 0 (Probing) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 1 (Gomory) - 4 row cuts average 24.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is 1
+Cbc0014I Cut generator 2 (Knapsack) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 3 (Clique) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 4 (MixedIntegerRounding2) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 5 (FlowCover) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 7 (ZeroHalf) - 3 row cuts average 15.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is 1
+Cbc0001I Search completed - best objective 4, took 0 iterations and 0 nodes (0.05 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from 2.85714 to 3.28205
+Probing was tried 1 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Gomory was tried 1 times and created 4 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Knapsack was tried 1 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Clique was tried 1 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+MixedIntegerRounding2 was tried 1 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+FlowCover was tried 1 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+TwoMirCuts was tried 1 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+ZeroHalf was tried 1 times and created 3 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+
+Result - Optimal solution found
+
+Objective value:                4.00000000
+Enumerated nodes:               0
+Total iterations:               0
+Time (CPU seconds):             0.05
+Time (Wallclock seconds):       0.06
+
+Total time (CPU seconds):       0.05   (Wallclock seconds):       0.06
+

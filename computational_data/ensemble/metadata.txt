@@ -1,0 +1,17 @@
+Synthetic DSI ensemble experiment metadata
+==========================================
+Trials: 30
+Learners: 48
+Groups: 6
+Learners per group: 8
+Validation samples per trial: 1000
+Test samples per trial: 3000
+Random same-size ensembles per trial: 200
+Correlation threshold: 0.15
+CBC time limit per DSI solve: 10.0
+CBC command: /opt/homebrew/bin/cbc
+CBC version: Welcome to the CBC MILP Solver; Version: 2.10.12
+Python: 3.9.6
+
+Rerun from the teresa-dom directory with:
+python3 computational_data/ensemble_dsi_experiment.py

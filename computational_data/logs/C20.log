@@ -1,0 +1,37 @@
+Welcome to the CBC MILP Solver 
+Version: 2.10.12 
+Build Date: Aug 20 2024 
+
+command line - /opt/homebrew/bin/cbc computational_data/lp/C20.lp seconds 10.0 solve solu computational_data/solutions/C20.sol (default strategy 1)
+seconds was changed from 1e+100 to 10
+Continuous objective value is 10 - 0.00 seconds
+Cgl0004I processed model has 102 rows, 40 columns (40 integer (40 of which binary)) and 320 elements
+Cutoff increment increased from 1e-05 to 0.9999
+Cbc0038I Initial state - 0 integers unsatisfied sum - 1.77636e-15
+Cbc0038I Solution found of 10
+Cbc0038I Before mini branch and bound, 40 integers at bound fixed and 0 continuous
+Cbc0038I Mini branch and bound did not improve solution (0.00 seconds)
+Cbc0038I After 0.00 seconds - Feasibility pump exiting with objective of 10 - took 0.00 seconds
+Cbc0012I Integer solution of 10 found by feasibility pump after 0 iterations and 0 nodes (0.00 seconds)
+Cbc0001I Search completed - best objective 10, took 0 iterations and 0 nodes (0.00 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from 10 to 10
+Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Gomory was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Knapsack was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Clique was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+MixedIntegerRounding2 was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+FlowCover was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+TwoMirCuts was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+ZeroHalf was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+
+Result - Optimal solution found
+
+Objective value:                10.00000000
+Enumerated nodes:               0
+Total iterations:               0
+Time (CPU seconds):             0.00
+Time (Wallclock seconds):       0.00
+
+Total time (CPU seconds):       0.00   (Wallclock seconds):       0.00
+
